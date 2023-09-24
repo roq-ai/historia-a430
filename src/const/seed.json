@@ -1,0 +1,2422 @@
+[
+  {
+    "product": [
+      {
+        "id": "561870c4-82a3-427b-a3a8-9b057963676b",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "price": 24455,
+        "stock": 83124,
+        "created_at": "2023-09-23T09:30:13.756Z",
+        "updated_at": "2023-09-23T14:33:08.433Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "b06fba78-b4b3-412b-8f0f-a35bc5e1273c",
+        "name": "Product B",
+        "description": "Innovative and user-friendly",
+        "price": 74393,
+        "stock": 85674,
+        "created_at": "2023-09-23T12:59:48.067Z",
+        "updated_at": "2023-09-23T13:38:03.729Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "2c521c67-7d04-4a85-909b-0b0aa2af69e3",
+        "name": "Product C",
+        "description": "Versatile and reliable",
+        "price": 98645,
+        "stock": 45340,
+        "created_at": "2023-09-23T13:43:45.556Z",
+        "updated_at": "2023-09-24T01:38:48.593Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "a1dca98c-713e-4ae2-90c0-235f4d3ea4e8",
+        "name": "Product D",
+        "description": "Elegant and stylish",
+        "price": 44357,
+        "stock": 61593,
+        "created_at": "2023-09-23T23:14:52.597Z",
+        "updated_at": "2023-09-23T23:55:48.268Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "eacc0649-2497-4cf6-971e-35d90e1aae28",
+        "name": "Product E",
+        "description": "Efficient and cost-effective",
+        "price": 80465,
+        "stock": 75408,
+        "created_at": "2023-09-23T13:34:26.277Z",
+        "updated_at": "2023-09-24T02:47:50.214Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "6a65128e-737c-4892-b213-8b2eb7443ab3",
+        "discount": 3168,
+        "start_date": "2023-09-23T22:06:04.690Z",
+        "end_date": "2023-09-23T15:10:46.222Z",
+        "created_at": "2023-09-23T21:44:14.688Z",
+        "updated_at": "2023-09-23T07:28:39.043Z",
+        "product_id": "a1dca98c-713e-4ae2-90c0-235f4d3ea4e8"
+      },
+      {
+        "id": "aeaa70c4-2877-4959-a087-f9515c3cc4dc",
+        "discount": 55329,
+        "start_date": "2023-09-23T22:16:37.623Z",
+        "end_date": "2023-09-24T01:03:42.148Z",
+        "created_at": "2023-09-23T18:40:01.949Z",
+        "updated_at": "2023-09-24T02:42:06.085Z",
+        "product_id": "a1dca98c-713e-4ae2-90c0-235f4d3ea4e8"
+      },
+      {
+        "id": "a7f20fb1-6adf-47dd-9b44-f73163b714f0",
+        "discount": 65353,
+        "start_date": "2023-09-23T11:33:26.990Z",
+        "end_date": "2023-09-23T11:18:56.236Z",
+        "created_at": "2023-09-24T02:10:07.089Z",
+        "updated_at": "2023-09-23T13:34:17.513Z",
+        "product_id": "eacc0649-2497-4cf6-971e-35d90e1aae28"
+      },
+      {
+        "id": "88a79fbb-3a2c-4cd9-8481-3dd7b951c7f3",
+        "discount": 75252,
+        "start_date": "2023-09-23T14:31:03.565Z",
+        "end_date": "2023-09-24T06:45:36.041Z",
+        "created_at": "2023-09-24T02:33:16.104Z",
+        "updated_at": "2023-09-23T20:17:06.516Z",
+        "product_id": "561870c4-82a3-427b-a3a8-9b057963676b"
+      },
+      {
+        "id": "b5198743-5363-48ee-920e-2de5e24b349d",
+        "discount": 25109,
+        "start_date": "2023-09-23T10:39:16.905Z",
+        "end_date": "2023-09-23T14:58:24.378Z",
+        "created_at": "2023-09-23T08:41:23.553Z",
+        "updated_at": "2023-09-23T09:24:34.255Z",
+        "product_id": "b06fba78-b4b3-412b-8f0f-a35bc5e1273c"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "2020feab-9724-4f43-a41c-12e6a805fd15",
+        "status": "Pending",
+        "created_at": "2023-09-24T01:38:23.060Z",
+        "updated_at": "2023-09-24T01:59:17.348Z",
+        "offer_id": "b5198743-5363-48ee-920e-2de5e24b349d",
+        "product_id": "561870c4-82a3-427b-a3a8-9b057963676b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5887fdd-334d-4d15-9c7c-2ff0a21426fa",
+        "status": "Reviewed",
+        "created_at": "2023-09-24T02:21:32.267Z",
+        "updated_at": "2023-09-23T20:19:32.837Z",
+        "offer_id": "aeaa70c4-2877-4959-a087-f9515c3cc4dc",
+        "product_id": "561870c4-82a3-427b-a3a8-9b057963676b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16be33d7-639d-4810-ae11-e8538242624b",
+        "status": "Accepted",
+        "created_at": "2023-09-23T14:23:25.133Z",
+        "updated_at": "2023-09-23T20:39:35.063Z",
+        "offer_id": "aeaa70c4-2877-4959-a087-f9515c3cc4dc",
+        "product_id": "b06fba78-b4b3-412b-8f0f-a35bc5e1273c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75a3a066-6511-4b3e-980d-c1da1b0fc001",
+        "status": "Declined",
+        "created_at": "2023-09-23T17:48:42.351Z",
+        "updated_at": "2023-09-24T04:02:51.199Z",
+        "offer_id": "6a65128e-737c-4892-b213-8b2eb7443ab3",
+        "product_id": "b06fba78-b4b3-412b-8f0f-a35bc5e1273c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e38ecab-e082-4f7b-a41c-7eb91c0a09e0",
+        "status": "Implemented",
+        "created_at": "2023-09-24T00:30:19.226Z",
+        "updated_at": "2023-09-23T20:28:21.179Z",
+        "offer_id": "88a79fbb-3a2c-4cd9-8481-3dd7b951c7f3",
+        "product_id": "2c521c67-7d04-4a85-909b-0b0aa2af69e3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "8cfaada9-4736-408d-af04-61ec75c5af10",
+        "quantity": 40933,
+        "total_price": 49683,
+        "created_at": "2023-09-24T05:33:18.247Z",
+        "updated_at": "2023-09-24T02:20:28.410Z",
+        "product_id": "2c521c67-7d04-4a85-909b-0b0aa2af69e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a6e0712-1f01-4760-8c9e-223451cbee81",
+        "quantity": 35850,
+        "total_price": 57736,
+        "created_at": "2023-09-23T10:49:32.320Z",
+        "updated_at": "2023-09-23T08:42:24.626Z",
+        "product_id": "b06fba78-b4b3-412b-8f0f-a35bc5e1273c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f90ba41-f17b-482a-b96c-a40dd0b6f2aa",
+        "quantity": 17759,
+        "total_price": 45820,
+        "created_at": "2023-09-23T23:39:17.537Z",
+        "updated_at": "2023-09-24T01:55:18.273Z",
+        "product_id": "eacc0649-2497-4cf6-971e-35d90e1aae28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27024999-a17a-489d-831d-d86da1381364",
+        "quantity": 24278,
+        "total_price": 31820,
+        "created_at": "2023-09-24T05:49:11.695Z",
+        "updated_at": "2023-09-23T11:21:46.261Z",
+        "product_id": "561870c4-82a3-427b-a3a8-9b057963676b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ab43346-f51e-4570-a349-f3c696a02bdd",
+        "quantity": 56537,
+        "total_price": 97396,
+        "created_at": "2023-09-24T06:03:08.120Z",
+        "updated_at": "2023-09-23T10:25:00.510Z",
+        "product_id": "561870c4-82a3-427b-a3a8-9b057963676b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4c1628a5-5bf4-4ecd-a0ea-fe7344cf5214",
+        "email": "Reynold_Pagac@roq.tech",
+        "firstName": "Alvis",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32357457",
+        "tenantId": null
+      },
+      {
+        "reference": "385cc263-13dd-461c-8331-021e6d45bd9d",
+        "email": "Maximillia_Hermann@roq.tech",
+        "firstName": "Marlene",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49029021",
+        "tenantId": null
+      },
+      {
+        "reference": "be7e588f-e7ec-4730-bdf6-8c7702278955",
+        "email": "Charlene_Russel@roq.tech",
+        "firstName": "Jordyn",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64871040",
+        "tenantId": null
+      },
+      {
+        "reference": "2bdb2497-5026-46c4-870a-880dd79ca463",
+        "email": "Lysanne22@roq.tech",
+        "firstName": "Thora",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0f6bd617-e267-42a8-a36d-15a41bc3da64",
+        "email": "Aimee.Gerlach91@roq.tech",
+        "firstName": "Foster",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12883011",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "60bdafdf-7fd5-48f9-8499-e39c3406ba93",
+        "name": "Product A",
+        "description": "Highly durable and long-lasting",
+        "price": 98818,
+        "stock": 52189,
+        "created_at": "2023-09-24T02:27:11.584Z",
+        "updated_at": "2023-09-24T02:27:43.040Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "9d57fb47-6724-4f61-89c1-37d4b05d30af",
+        "name": "Product B",
+        "description": "Eco-friendly materials",
+        "price": 34091,
+        "stock": 51026,
+        "created_at": "2023-09-23T15:40:27.827Z",
+        "updated_at": "2023-09-24T02:01:43.156Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "fd64e2f3-18bb-4f17-9a49-1bbdaf12b8c1",
+        "name": "Product C",
+        "description": "Versatile and multi-functional",
+        "price": 86089,
+        "stock": 46111,
+        "created_at": "2023-09-23T16:04:14.966Z",
+        "updated_at": "2023-09-23T11:13:46.821Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "3d586e97-58c9-4c69-88ec-232441a7224e",
+        "name": "Product D",
+        "description": "Stylish design",
+        "price": 22916,
+        "stock": 22168,
+        "created_at": "2023-09-24T01:10:36.778Z",
+        "updated_at": "2023-09-23T19:12:54.877Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "581329a0-739d-47ac-8e3b-d9cad86374c2",
+        "name": "Product E",
+        "description": "Easy to use and maintain",
+        "price": 22500,
+        "stock": 34502,
+        "created_at": "2023-09-23T08:37:04.383Z",
+        "updated_at": "2023-09-23T19:01:26.362Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "037ebb21-be13-44b1-8cae-c1e279ec2bb2",
+        "discount": 86800,
+        "start_date": "2023-09-24T03:44:48.779Z",
+        "end_date": "2023-09-23T14:33:05.703Z",
+        "created_at": "2023-09-23T18:51:34.660Z",
+        "updated_at": "2023-09-24T02:49:53.361Z",
+        "product_id": "60bdafdf-7fd5-48f9-8499-e39c3406ba93"
+      },
+      {
+        "id": "24bd2356-fa3b-4203-b009-22eed8db51e7",
+        "discount": 94128,
+        "start_date": "2023-09-23T17:10:15.859Z",
+        "end_date": "2023-09-23T16:02:12.902Z",
+        "created_at": "2023-09-23T07:22:59.100Z",
+        "updated_at": "2023-09-24T06:12:50.411Z",
+        "product_id": "9d57fb47-6724-4f61-89c1-37d4b05d30af"
+      },
+      {
+        "id": "252a071c-7595-445b-8503-6e1cee40a952",
+        "discount": 60915,
+        "start_date": "2023-09-24T00:41:54.379Z",
+        "end_date": "2023-09-23T13:38:09.581Z",
+        "created_at": "2023-09-23T07:47:46.383Z",
+        "updated_at": "2023-09-23T17:55:27.416Z",
+        "product_id": "fd64e2f3-18bb-4f17-9a49-1bbdaf12b8c1"
+      },
+      {
+        "id": "6703a023-cac9-49e5-8965-79b2b99beac7",
+        "discount": 40276,
+        "start_date": "2023-09-23T19:25:45.277Z",
+        "end_date": "2023-09-23T21:36:42.487Z",
+        "created_at": "2023-09-23T14:43:12.744Z",
+        "updated_at": "2023-09-24T00:03:15.057Z",
+        "product_id": "fd64e2f3-18bb-4f17-9a49-1bbdaf12b8c1"
+      },
+      {
+        "id": "004b76da-fb0f-49d7-bcdf-2f8ce3e8ccd5",
+        "discount": 37495,
+        "start_date": "2023-09-24T06:50:55.251Z",
+        "end_date": "2023-09-24T05:07:20.017Z",
+        "created_at": "2023-09-23T13:22:26.859Z",
+        "updated_at": "2023-09-23T14:47:04.269Z",
+        "product_id": "fd64e2f3-18bb-4f17-9a49-1bbdaf12b8c1"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "eda1c78c-17a1-4bdd-9a7e-274da9aacf4d",
+        "status": "Pending",
+        "created_at": "2023-09-23T22:30:37.606Z",
+        "updated_at": "2023-09-23T21:37:42.561Z",
+        "offer_id": "24bd2356-fa3b-4203-b009-22eed8db51e7",
+        "product_id": "3d586e97-58c9-4c69-88ec-232441a7224e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10bff7f7-e48f-44ba-afef-79c3a1b5052f",
+        "status": "Reviewed",
+        "created_at": "2023-09-23T21:02:35.071Z",
+        "updated_at": "2023-09-23T17:10:26.370Z",
+        "offer_id": "252a071c-7595-445b-8503-6e1cee40a952",
+        "product_id": "60bdafdf-7fd5-48f9-8499-e39c3406ba93",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed1ccae2-fbde-45a6-bcf0-02e615038299",
+        "status": "Accepted",
+        "created_at": "2023-09-23T07:12:42.083Z",
+        "updated_at": "2023-09-23T18:22:47.787Z",
+        "offer_id": "004b76da-fb0f-49d7-bcdf-2f8ce3e8ccd5",
+        "product_id": "9d57fb47-6724-4f61-89c1-37d4b05d30af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3cfd7a3-a3cb-4c4f-9fdb-e670bfd30f24",
+        "status": "Declined",
+        "created_at": "2023-09-23T13:01:22.602Z",
+        "updated_at": "2023-09-23T10:30:08.038Z",
+        "offer_id": "24bd2356-fa3b-4203-b009-22eed8db51e7",
+        "product_id": "3d586e97-58c9-4c69-88ec-232441a7224e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f963d182-1353-4f1d-99c2-1cc7085adb17",
+        "status": "Implemented",
+        "created_at": "2023-09-23T08:42:04.654Z",
+        "updated_at": "2023-09-23T12:52:34.092Z",
+        "offer_id": "252a071c-7595-445b-8503-6e1cee40a952",
+        "product_id": "3d586e97-58c9-4c69-88ec-232441a7224e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "aca23b6a-a2f8-4051-bdff-3269e045cce4",
+        "quantity": 58669,
+        "total_price": 22529,
+        "created_at": "2023-09-23T07:58:22.145Z",
+        "updated_at": "2023-09-23T22:54:40.707Z",
+        "product_id": "fd64e2f3-18bb-4f17-9a49-1bbdaf12b8c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42dfd85e-6761-4b00-afd1-d2f41b16ceea",
+        "quantity": 31146,
+        "total_price": 36981,
+        "created_at": "2023-09-24T04:26:53.519Z",
+        "updated_at": "2023-09-23T09:50:02.433Z",
+        "product_id": "9d57fb47-6724-4f61-89c1-37d4b05d30af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb786137-0fbf-4722-84eb-a2278939018d",
+        "quantity": 92852,
+        "total_price": 60327,
+        "created_at": "2023-09-24T04:33:34.000Z",
+        "updated_at": "2023-09-23T07:52:41.858Z",
+        "product_id": "3d586e97-58c9-4c69-88ec-232441a7224e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1611c90d-ef75-4289-a10d-ec92462c0be8",
+        "quantity": 99400,
+        "total_price": 5235,
+        "created_at": "2023-09-23T17:14:30.176Z",
+        "updated_at": "2023-09-23T21:15:59.636Z",
+        "product_id": "3d586e97-58c9-4c69-88ec-232441a7224e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1e38f68-7abd-41b6-8b7c-49cd24685616",
+        "quantity": 91638,
+        "total_price": 28806,
+        "created_at": "2023-09-24T05:58:50.217Z",
+        "updated_at": "2023-09-24T05:19:28.187Z",
+        "product_id": "60bdafdf-7fd5-48f9-8499-e39c3406ba93",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bb4b6d3c-6cde-4042-8bc3-d9508e25182a",
+        "email": "Amy.Turcotte@roq.tech",
+        "firstName": "Kaylah",
+        "lastName": "Robel-Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1044.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "28eb7635-0d11-4648-b21c-4057e7cc2ad2",
+        "email": "Dahlia_Wintheiser88@roq.tech",
+        "firstName": "Isai",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4503320",
+        "tenantId": null
+      },
+      {
+        "reference": "7236572c-0155-4173-ac89-23ab305ad2ff",
+        "email": "Jarod.Marquardt@roq.tech",
+        "firstName": "Elza",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/789.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a62f1a6-c3e0-4e9d-8b4a-31b296ba72ea",
+        "email": "Stewart83@roq.tech",
+        "firstName": "Mavis",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3366961",
+        "tenantId": null
+      },
+      {
+        "reference": "dafd0b50-454b-4932-ac2e-c38f5249a0e0",
+        "email": "Duane_Kub21@roq.tech",
+        "firstName": "Breana",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/279.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "cb35b719-bb75-4e2c-ae38-2d571fa00fe0",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "price": 85541,
+        "stock": 35497,
+        "created_at": "2023-09-24T00:49:49.694Z",
+        "updated_at": "2023-09-23T22:41:21.663Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "bd1b66dc-e2a1-4be3-8865-f96a5ae25bee",
+        "name": "Product B",
+        "description": "Cutting-edge technology",
+        "price": 56654,
+        "stock": 84933,
+        "created_at": "2023-09-24T06:51:03.329Z",
+        "updated_at": "2023-09-23T15:17:49.154Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "602d4ee8-6d70-41d6-b52d-df3510879f1a",
+        "name": "Product C",
+        "description": "Enhance your productivity",
+        "price": 82952,
+        "stock": 96333,
+        "created_at": "2023-09-23T21:27:25.697Z",
+        "updated_at": "2023-09-23T11:01:05.531Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "1c393799-bbb4-4e6c-93ad-c157caaa1da9",
+        "name": "Product D",
+        "description": "Sleek and stylish design",
+        "price": 48708,
+        "stock": 78662,
+        "created_at": "2023-09-23T13:20:21.692Z",
+        "updated_at": "2023-09-24T03:12:43.843Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "21d003b4-f359-4114-86d4-3e0341cd9b61",
+        "name": "Product E",
+        "description": "Unmatched performance",
+        "price": 62050,
+        "stock": 34029,
+        "created_at": "2023-09-23T13:36:14.917Z",
+        "updated_at": "2023-09-23T14:04:00.307Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "fa9e261c-526b-4415-8a5b-d2ef03fd9d6d",
+        "discount": 64488,
+        "start_date": "2023-09-23T19:40:24.284Z",
+        "end_date": "2023-09-23T20:14:10.831Z",
+        "created_at": "2023-09-23T14:38:39.481Z",
+        "updated_at": "2023-09-24T02:25:41.799Z",
+        "product_id": "602d4ee8-6d70-41d6-b52d-df3510879f1a"
+      },
+      {
+        "id": "51852790-5ab9-4869-b3c4-b414d38b8c48",
+        "discount": 95297,
+        "start_date": "2023-09-24T02:42:15.312Z",
+        "end_date": "2023-09-23T13:47:47.261Z",
+        "created_at": "2023-09-23T09:35:08.459Z",
+        "updated_at": "2023-09-24T06:45:00.390Z",
+        "product_id": "602d4ee8-6d70-41d6-b52d-df3510879f1a"
+      },
+      {
+        "id": "ece12bde-8126-421f-8082-13567c6b4924",
+        "discount": 28500,
+        "start_date": "2023-09-24T01:09:14.812Z",
+        "end_date": "2023-09-23T22:32:00.975Z",
+        "created_at": "2023-09-23T14:24:07.634Z",
+        "updated_at": "2023-09-23T10:38:06.556Z",
+        "product_id": "cb35b719-bb75-4e2c-ae38-2d571fa00fe0"
+      },
+      {
+        "id": "c9737641-2c7c-4fd9-a626-b904279a68ae",
+        "discount": 79900,
+        "start_date": "2023-09-24T05:21:45.576Z",
+        "end_date": "2023-09-24T06:31:40.116Z",
+        "created_at": "2023-09-24T01:19:57.735Z",
+        "updated_at": "2023-09-23T11:42:03.305Z",
+        "product_id": "bd1b66dc-e2a1-4be3-8865-f96a5ae25bee"
+      },
+      {
+        "id": "96f0eb8a-50b8-42ca-bf65-8edf53b3daef",
+        "discount": 80689,
+        "start_date": "2023-09-23T21:57:52.612Z",
+        "end_date": "2023-09-24T02:35:06.265Z",
+        "created_at": "2023-09-23T22:01:14.246Z",
+        "updated_at": "2023-09-23T10:42:30.237Z",
+        "product_id": "602d4ee8-6d70-41d6-b52d-df3510879f1a"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "62bda504-af52-4dc9-a94c-7857ca30c703",
+        "status": "Pending",
+        "created_at": "2023-09-23T07:52:19.885Z",
+        "updated_at": "2023-09-23T23:21:59.055Z",
+        "offer_id": "ece12bde-8126-421f-8082-13567c6b4924",
+        "product_id": "21d003b4-f359-4114-86d4-3e0341cd9b61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d876cb2-61a0-482c-bd9e-c2c6c509c493",
+        "status": "Under Review",
+        "created_at": "2023-09-23T11:42:36.382Z",
+        "updated_at": "2023-09-23T08:32:10.363Z",
+        "offer_id": "51852790-5ab9-4869-b3c4-b414d38b8c48",
+        "product_id": "cb35b719-bb75-4e2c-ae38-2d571fa00fe0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64e41a5e-ede5-42df-bc47-ee4fe6809037",
+        "status": "Accepted",
+        "created_at": "2023-09-23T17:09:48.502Z",
+        "updated_at": "2023-09-23T17:14:56.474Z",
+        "offer_id": "ece12bde-8126-421f-8082-13567c6b4924",
+        "product_id": "bd1b66dc-e2a1-4be3-8865-f96a5ae25bee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3e1ccbf-fdb0-4608-838f-2df6b27591f6",
+        "status": "Implemented",
+        "created_at": "2023-09-23T23:38:01.812Z",
+        "updated_at": "2023-09-23T19:36:06.436Z",
+        "offer_id": "51852790-5ab9-4869-b3c4-b414d38b8c48",
+        "product_id": "bd1b66dc-e2a1-4be3-8865-f96a5ae25bee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea3c8364-a8ee-4796-84d2-31bdbd16f02a",
+        "status": "Closed",
+        "created_at": "2023-09-23T16:02:22.307Z",
+        "updated_at": "2023-09-23T13:56:44.050Z",
+        "offer_id": "fa9e261c-526b-4415-8a5b-d2ef03fd9d6d",
+        "product_id": "bd1b66dc-e2a1-4be3-8865-f96a5ae25bee",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "03d773df-aac3-495d-aa31-2cb7ef3e0bb2",
+        "quantity": 92804,
+        "total_price": 61730,
+        "created_at": "2023-09-23T18:56:18.982Z",
+        "updated_at": "2023-09-23T18:08:57.214Z",
+        "product_id": "1c393799-bbb4-4e6c-93ad-c157caaa1da9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a111f87-b42a-48ec-b487-26227fca31eb",
+        "quantity": 59323,
+        "total_price": 31850,
+        "created_at": "2023-09-24T05:37:26.880Z",
+        "updated_at": "2023-09-23T19:13:54.007Z",
+        "product_id": "602d4ee8-6d70-41d6-b52d-df3510879f1a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2ed85c4-7eaf-4a45-b988-ae382ef592eb",
+        "quantity": 36728,
+        "total_price": 23327,
+        "created_at": "2023-09-24T03:16:40.298Z",
+        "updated_at": "2023-09-24T00:29:21.067Z",
+        "product_id": "1c393799-bbb4-4e6c-93ad-c157caaa1da9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7560c7e5-da53-4c4d-94fe-20244579ec68",
+        "quantity": 58703,
+        "total_price": 60845,
+        "created_at": "2023-09-23T18:32:55.350Z",
+        "updated_at": "2023-09-23T16:51:09.182Z",
+        "product_id": "bd1b66dc-e2a1-4be3-8865-f96a5ae25bee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc01c6cc-26f4-4e3a-8e19-5e5331b6fdda",
+        "quantity": 46137,
+        "total_price": 32305,
+        "created_at": "2023-09-23T15:46:15.154Z",
+        "updated_at": "2023-09-24T04:44:32.686Z",
+        "product_id": "cb35b719-bb75-4e2c-ae38-2d571fa00fe0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9f97fc13-16cb-4227-9eaa-a5442fbc9fbc",
+        "email": "Mohammed14@roq.tech",
+        "firstName": "Maurine",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/65.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "63df6a0d-b17a-4fb3-acaf-b65a348c9210",
+        "email": "Evalyn.Grant@roq.tech",
+        "firstName": "Cleta",
+        "lastName": "Effertz-Rice",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/571.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65da71b4-e7f6-43c1-8034-349b05c91714",
+        "email": "Ross64@roq.tech",
+        "firstName": "Veda",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5896804",
+        "tenantId": null
+      },
+      {
+        "reference": "fb220c9f-70d6-413c-acf4-0ed29c695a75",
+        "email": "Lon.Mills24@roq.tech",
+        "firstName": "Kian",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48832110",
+        "tenantId": null
+      },
+      {
+        "reference": "b8927128-aa42-48c3-989c-52785f310fe6",
+        "email": "Tessie.Veum73@roq.tech",
+        "firstName": "Ruby",
+        "lastName": "Botsford-Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/630.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "85d97576-ba56-4f97-80bb-962feac1d9aa",
+        "name": "Product A",
+        "description": "Highly durable and versatile",
+        "price": 98472,
+        "stock": 10258,
+        "created_at": "2023-09-23T07:19:47.465Z",
+        "updated_at": "2023-09-23T19:14:13.120Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "82b31f0d-47dc-4c07-a8b0-c5d01d081de8",
+        "name": "Product B",
+        "description": "Eco-friendly and sustainable",
+        "price": 3286,
+        "stock": 94048,
+        "created_at": "2023-09-23T13:30:35.504Z",
+        "updated_at": "2023-09-23T20:22:45.540Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "3c809394-12cc-4ec9-b243-b41609446823",
+        "name": "Product C",
+        "description": "Cutting-edge technology",
+        "price": 69838,
+        "stock": 14133,
+        "created_at": "2023-09-23T15:47:14.475Z",
+        "updated_at": "2023-09-23T15:26:50.797Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "e65ec68c-a369-4f28-bb56-eff933591636",
+        "name": "Product D",
+        "description": "Luxurious and elegant",
+        "price": 9912,
+        "stock": 32974,
+        "created_at": "2023-09-23T09:50:29.009Z",
+        "updated_at": "2023-09-24T04:50:22.427Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "79fce41a-70fb-4008-a425-0bb8715e43c4",
+        "name": "Product E",
+        "description": "Affordable and practical",
+        "price": 9990,
+        "stock": 14853,
+        "created_at": "2023-09-24T04:56:18.727Z",
+        "updated_at": "2023-09-23T22:06:31.951Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "e1f48f82-d80f-42c0-8bdb-db4d818dd4e8",
+        "discount": 46795,
+        "start_date": "2023-09-23T20:49:24.639Z",
+        "end_date": "2023-09-24T02:50:51.300Z",
+        "created_at": "2023-09-23T20:31:34.384Z",
+        "updated_at": "2023-09-23T17:37:26.418Z",
+        "product_id": "79fce41a-70fb-4008-a425-0bb8715e43c4"
+      },
+      {
+        "id": "5d8ed30a-71cb-43fe-bc3d-91433319e993",
+        "discount": 81264,
+        "start_date": "2023-09-24T02:20:53.435Z",
+        "end_date": "2023-09-23T19:56:58.378Z",
+        "created_at": "2023-09-23T22:00:06.136Z",
+        "updated_at": "2023-09-23T21:27:55.247Z",
+        "product_id": "85d97576-ba56-4f97-80bb-962feac1d9aa"
+      },
+      {
+        "id": "c4d82312-19dc-49f1-888b-865c32f9351b",
+        "discount": 21268,
+        "start_date": "2023-09-24T02:16:25.367Z",
+        "end_date": "2023-09-23T21:12:52.019Z",
+        "created_at": "2023-09-23T08:59:46.208Z",
+        "updated_at": "2023-09-23T21:11:38.595Z",
+        "product_id": "85d97576-ba56-4f97-80bb-962feac1d9aa"
+      },
+      {
+        "id": "1a469b6b-d364-47e3-a87a-09328c2e56bf",
+        "discount": 73128,
+        "start_date": "2023-09-23T21:38:04.746Z",
+        "end_date": "2023-09-23T17:08:12.816Z",
+        "created_at": "2023-09-23T14:46:04.907Z",
+        "updated_at": "2023-09-23T15:34:53.928Z",
+        "product_id": "3c809394-12cc-4ec9-b243-b41609446823"
+      },
+      {
+        "id": "7ebea707-37d3-4ef6-ad5d-00482cbe11e0",
+        "discount": 58411,
+        "start_date": "2023-09-23T20:03:33.365Z",
+        "end_date": "2023-09-23T09:17:46.848Z",
+        "created_at": "2023-09-23T13:10:26.068Z",
+        "updated_at": "2023-09-23T21:43:16.668Z",
+        "product_id": "e65ec68c-a369-4f28-bb56-eff933591636"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "06aaea3d-3a09-4095-95a3-d1ce4dd8a638",
+        "status": "Pending",
+        "created_at": "2023-09-23T23:56:23.519Z",
+        "updated_at": "2023-09-24T01:37:17.619Z",
+        "offer_id": "1a469b6b-d364-47e3-a87a-09328c2e56bf",
+        "product_id": "82b31f0d-47dc-4c07-a8b0-c5d01d081de8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b1e3019-6f0a-495d-a2a0-e8c9cb1bf3f7",
+        "status": "Reviewed",
+        "created_at": "2023-09-23T10:20:54.830Z",
+        "updated_at": "2023-09-23T14:34:48.828Z",
+        "offer_id": "7ebea707-37d3-4ef6-ad5d-00482cbe11e0",
+        "product_id": "e65ec68c-a369-4f28-bb56-eff933591636",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "876db58d-25b4-4aed-bd37-1ebc4619af3f",
+        "status": "Accepted",
+        "created_at": "2023-09-23T10:09:36.760Z",
+        "updated_at": "2023-09-24T00:45:38.754Z",
+        "offer_id": "7ebea707-37d3-4ef6-ad5d-00482cbe11e0",
+        "product_id": "79fce41a-70fb-4008-a425-0bb8715e43c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5d68db5-4975-4283-8496-28b7e322bd55",
+        "status": "Declined",
+        "created_at": "2023-09-23T16:51:49.746Z",
+        "updated_at": "2023-09-23T23:10:14.902Z",
+        "offer_id": "e1f48f82-d80f-42c0-8bdb-db4d818dd4e8",
+        "product_id": "85d97576-ba56-4f97-80bb-962feac1d9aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c0fa259-7c3b-4184-b055-1131030577f3",
+        "status": "Implemented",
+        "created_at": "2023-09-24T02:34:39.846Z",
+        "updated_at": "2023-09-23T10:34:25.857Z",
+        "offer_id": "5d8ed30a-71cb-43fe-bc3d-91433319e993",
+        "product_id": "79fce41a-70fb-4008-a425-0bb8715e43c4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "44b5b2f4-e527-4883-bdb5-a0da5f53a9f7",
+        "quantity": 39530,
+        "total_price": 10753,
+        "created_at": "2023-09-23T14:11:18.720Z",
+        "updated_at": "2023-09-24T05:53:30.367Z",
+        "product_id": "3c809394-12cc-4ec9-b243-b41609446823",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "027180a2-71ec-4cdb-abd1-25a0e0853318",
+        "quantity": 65781,
+        "total_price": 1104,
+        "created_at": "2023-09-24T01:51:01.961Z",
+        "updated_at": "2023-09-24T02:57:49.579Z",
+        "product_id": "3c809394-12cc-4ec9-b243-b41609446823",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9310c5a-d54c-413e-98d8-df6decce2167",
+        "quantity": 18684,
+        "total_price": 24603,
+        "created_at": "2023-09-23T16:12:07.796Z",
+        "updated_at": "2023-09-24T01:05:40.013Z",
+        "product_id": "82b31f0d-47dc-4c07-a8b0-c5d01d081de8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "580255eb-c7b9-4511-a987-cef55ef8449f",
+        "quantity": 62310,
+        "total_price": 56325,
+        "created_at": "2023-09-23T21:10:40.718Z",
+        "updated_at": "2023-09-23T12:24:09.028Z",
+        "product_id": "3c809394-12cc-4ec9-b243-b41609446823",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1aabeada-ba9a-4cda-bf57-abbe4bff6d32",
+        "quantity": 31986,
+        "total_price": 44160,
+        "created_at": "2023-09-23T19:59:52.581Z",
+        "updated_at": "2023-09-23T14:08:50.724Z",
+        "product_id": "85d97576-ba56-4f97-80bb-962feac1d9aa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0c2f634b-37ff-45a3-9877-555a3736596a",
+        "email": "Bridgette.Kemmer@roq.tech",
+        "firstName": "Marguerite",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/961.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0c3baa0c-af04-47c9-9907-cb60b4876ec6",
+        "email": "Danika76@roq.tech",
+        "firstName": "Agustina",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "581f2572-6bf7-49fc-92f7-c6589b270048",
+        "email": "Adonis34@roq.tech",
+        "firstName": "Gerda",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/260.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60f443fc-48a2-47d0-b6cf-871a09a3d046",
+        "email": "Scottie_Maggio16@roq.tech",
+        "firstName": "Allan",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65832333",
+        "tenantId": null
+      },
+      {
+        "reference": "c7cb0d7e-7a29-4d28-b764-33a41bed1791",
+        "email": "Barney_Reinger@roq.tech",
+        "firstName": "Celestine",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33066467",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "7970694d-b518-4259-adcb-61a737a9ce28",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "price": 93877,
+        "stock": 94043,
+        "created_at": "2023-09-23T19:37:24.753Z",
+        "updated_at": "2023-09-23T23:37:48.708Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "d3267ee2-633e-454c-a978-107883e514f7",
+        "name": "Product B",
+        "description": "Innovative and stylish",
+        "price": 22687,
+        "stock": 40510,
+        "created_at": "2023-09-23T22:57:23.306Z",
+        "updated_at": "2023-09-24T01:01:33.317Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "13427dcd-10fb-4cae-be7f-4e8053020803",
+        "name": "Product C",
+        "description": "Versatile and functional",
+        "price": 62787,
+        "stock": 23713,
+        "created_at": "2023-09-23T10:16:48.969Z",
+        "updated_at": "2023-09-24T00:05:30.168Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "1f711d92-3b56-4499-98f7-290bd85e8d91",
+        "name": "Product D",
+        "description": "Eco-friendly and sustainable",
+        "price": 60932,
+        "stock": 39403,
+        "created_at": "2023-09-23T09:08:36.292Z",
+        "updated_at": "2023-09-23T17:57:39.061Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "dfebc0d6-5969-4f5c-ae04-2025eed7f28b",
+        "name": "Product E",
+        "description": "Luxurious and elegant",
+        "price": 56055,
+        "stock": 9555,
+        "created_at": "2023-09-24T04:17:09.992Z",
+        "updated_at": "2023-09-23T15:53:42.086Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "ae0172eb-8505-446a-8c89-d8b9680a7ed5",
+        "discount": 30870,
+        "start_date": "2023-09-23T18:28:12.662Z",
+        "end_date": "2023-09-23T22:31:37.233Z",
+        "created_at": "2023-09-23T07:30:37.888Z",
+        "updated_at": "2023-09-23T14:11:22.135Z",
+        "product_id": "7970694d-b518-4259-adcb-61a737a9ce28"
+      },
+      {
+        "id": "d7493690-e951-4903-8240-de61fcb0caa0",
+        "discount": 17259,
+        "start_date": "2023-09-23T10:49:59.932Z",
+        "end_date": "2023-09-24T06:16:32.144Z",
+        "created_at": "2023-09-23T18:49:31.136Z",
+        "updated_at": "2023-09-24T07:08:00.204Z",
+        "product_id": "7970694d-b518-4259-adcb-61a737a9ce28"
+      },
+      {
+        "id": "597cfe30-f758-4089-b935-5726f4c3a767",
+        "discount": 18331,
+        "start_date": "2023-09-23T22:41:56.313Z",
+        "end_date": "2023-09-23T08:19:07.014Z",
+        "created_at": "2023-09-23T07:29:22.749Z",
+        "updated_at": "2023-09-23T20:28:49.476Z",
+        "product_id": "13427dcd-10fb-4cae-be7f-4e8053020803"
+      },
+      {
+        "id": "2240f325-6de0-499d-b770-940247716af6",
+        "discount": 52632,
+        "start_date": "2023-09-23T16:08:20.185Z",
+        "end_date": "2023-09-24T02:58:31.533Z",
+        "created_at": "2023-09-23T17:54:39.526Z",
+        "updated_at": "2023-09-23T08:44:06.823Z",
+        "product_id": "7970694d-b518-4259-adcb-61a737a9ce28"
+      },
+      {
+        "id": "26698fb7-f671-4f43-9f26-1f36d25c9d9e",
+        "discount": 20330,
+        "start_date": "2023-09-23T19:04:49.586Z",
+        "end_date": "2023-09-23T11:55:56.059Z",
+        "created_at": "2023-09-23T17:39:03.701Z",
+        "updated_at": "2023-09-23T14:40:28.232Z",
+        "product_id": "d3267ee2-633e-454c-a978-107883e514f7"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "963978f1-d6eb-477a-8a25-c3bd06c40ffd",
+        "status": "Pending",
+        "created_at": "2023-09-23T21:10:33.364Z",
+        "updated_at": "2023-09-23T23:51:02.199Z",
+        "offer_id": "d7493690-e951-4903-8240-de61fcb0caa0",
+        "product_id": "1f711d92-3b56-4499-98f7-290bd85e8d91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae8592e9-0046-42a6-90aa-b519a1736871",
+        "status": "Under Review",
+        "created_at": "2023-09-23T12:04:51.515Z",
+        "updated_at": "2023-09-23T11:30:10.061Z",
+        "offer_id": "d7493690-e951-4903-8240-de61fcb0caa0",
+        "product_id": "7970694d-b518-4259-adcb-61a737a9ce28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b4693db-9749-4919-a5e8-6ab1a6936565",
+        "status": "Accepted",
+        "created_at": "2023-09-23T15:51:03.825Z",
+        "updated_at": "2023-09-23T17:02:37.794Z",
+        "offer_id": "ae0172eb-8505-446a-8c89-d8b9680a7ed5",
+        "product_id": "d3267ee2-633e-454c-a978-107883e514f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "072b6667-345e-49a5-adbf-b9aaa4c64432",
+        "status": "Declined",
+        "created_at": "2023-09-23T17:15:03.169Z",
+        "updated_at": "2023-09-23T07:31:05.926Z",
+        "offer_id": "d7493690-e951-4903-8240-de61fcb0caa0",
+        "product_id": "7970694d-b518-4259-adcb-61a737a9ce28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "944a8168-1fe9-4b4d-ad2d-e3abfb219be7",
+        "status": "Implemented",
+        "created_at": "2023-09-24T02:54:26.759Z",
+        "updated_at": "2023-09-23T19:12:29.671Z",
+        "offer_id": "597cfe30-f758-4089-b935-5726f4c3a767",
+        "product_id": "dfebc0d6-5969-4f5c-ae04-2025eed7f28b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "2b6025e5-5811-41f5-b8ea-6d125f45455b",
+        "quantity": 44638,
+        "total_price": 83779,
+        "created_at": "2023-09-23T12:43:22.111Z",
+        "updated_at": "2023-09-23T18:17:29.078Z",
+        "product_id": "13427dcd-10fb-4cae-be7f-4e8053020803",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02c8776b-925d-4112-a45a-85e8397711ea",
+        "quantity": 36469,
+        "total_price": 3532,
+        "created_at": "2023-09-24T00:16:27.713Z",
+        "updated_at": "2023-09-23T09:44:52.086Z",
+        "product_id": "1f711d92-3b56-4499-98f7-290bd85e8d91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "136084f4-f29f-4e6d-becb-c8b3ed0ef024",
+        "quantity": 77959,
+        "total_price": 3950,
+        "created_at": "2023-09-24T03:03:04.223Z",
+        "updated_at": "2023-09-24T05:01:36.789Z",
+        "product_id": "dfebc0d6-5969-4f5c-ae04-2025eed7f28b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8665114-1980-4bae-aa84-55dd482b2cf7",
+        "quantity": 31372,
+        "total_price": 23997,
+        "created_at": "2023-09-23T20:46:10.047Z",
+        "updated_at": "2023-09-24T05:40:44.194Z",
+        "product_id": "1f711d92-3b56-4499-98f7-290bd85e8d91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90801c1c-d0ec-4201-a813-16585de00917",
+        "quantity": 7721,
+        "total_price": 53254,
+        "created_at": "2023-09-24T00:55:54.792Z",
+        "updated_at": "2023-09-24T06:10:47.774Z",
+        "product_id": "dfebc0d6-5969-4f5c-ae04-2025eed7f28b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2477667b-39dd-42f1-8cd4-b0df623a910d",
+        "email": "Ned.Beahan27@roq.tech",
+        "firstName": "Declan",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1053.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "efb7a819-b497-41a3-a955-ef10b2ed2417",
+        "email": "Keven_Corwin67@roq.tech",
+        "firstName": "Muriel",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15660414",
+        "tenantId": null
+      },
+      {
+        "reference": "ece58a5d-6612-46e7-99e2-8dfd40ae016f",
+        "email": "Greyson90@roq.tech",
+        "firstName": "Kavon",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78788629-244d-4f5f-8800-19a2779dd38c",
+        "email": "Elouise_Hansen@roq.tech",
+        "firstName": "Seth",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70504354",
+        "tenantId": null
+      },
+      {
+        "reference": "8263d066-8892-494e-a14a-df297865ad69",
+        "email": "Icie.Kovacek@roq.tech",
+        "firstName": "Domenic",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25372223",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "605d8408-5abb-4760-9987-07637802efe0",
+        "name": "Product A",
+        "description": "High-quality product",
+        "price": 68399,
+        "stock": 53791,
+        "created_at": "2023-09-24T02:15:59.506Z",
+        "updated_at": "2023-09-24T03:03:23.213Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "742f9f46-e02c-456d-a063-f52bc991781a",
+        "name": "Product B",
+        "description": "Affordable and durable",
+        "price": 72212,
+        "stock": 93309,
+        "created_at": "2023-09-24T04:12:40.175Z",
+        "updated_at": "2023-09-23T12:25:03.761Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "1f33a4e6-9186-4391-a86a-6e66c40fb341",
+        "name": "Product C",
+        "description": "Perfect for everyday use",
+        "price": 17801,
+        "stock": 70689,
+        "created_at": "2023-09-24T04:41:05.419Z",
+        "updated_at": "2023-09-23T16:47:30.354Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "f902b43c-4f62-4bec-bd54-f1b171f8b6a7",
+        "name": "Product D",
+        "description": "Versatile and stylish",
+        "price": 40602,
+        "stock": 38044,
+        "created_at": "2023-09-23T23:11:28.673Z",
+        "updated_at": "2023-09-23T08:02:31.159Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "cbfbfc8e-e2fa-4f43-9f28-2e1338c5cc6c",
+        "name": "Product E",
+        "description": "Excellent value for money",
+        "price": 60290,
+        "stock": 98616,
+        "created_at": "2023-09-23T11:40:38.617Z",
+        "updated_at": "2023-09-23T17:52:59.426Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "db46b0bc-d3ed-4272-9749-4355bc2edcc2",
+        "discount": 47419,
+        "start_date": "2023-09-23T11:04:23.725Z",
+        "end_date": "2023-09-24T02:20:29.174Z",
+        "created_at": "2023-09-24T01:17:02.681Z",
+        "updated_at": "2023-09-23T14:43:27.306Z",
+        "product_id": "1f33a4e6-9186-4391-a86a-6e66c40fb341"
+      },
+      {
+        "id": "f6d7a9ae-1d6b-45ec-94f7-6e56e73725df",
+        "discount": 6497,
+        "start_date": "2023-09-23T22:33:05.748Z",
+        "end_date": "2023-09-23T08:12:04.829Z",
+        "created_at": "2023-09-23T20:43:26.334Z",
+        "updated_at": "2023-09-23T07:18:50.980Z",
+        "product_id": "f902b43c-4f62-4bec-bd54-f1b171f8b6a7"
+      },
+      {
+        "id": "a925c89b-9d42-4188-b7bd-f37d6d68c6f5",
+        "discount": 8946,
+        "start_date": "2023-09-23T12:55:39.280Z",
+        "end_date": "2023-09-23T08:25:30.851Z",
+        "created_at": "2023-09-24T05:27:25.896Z",
+        "updated_at": "2023-09-24T04:38:53.760Z",
+        "product_id": "f902b43c-4f62-4bec-bd54-f1b171f8b6a7"
+      },
+      {
+        "id": "c1bb7cae-93d3-4b3c-8662-42985baec591",
+        "discount": 92493,
+        "start_date": "2023-09-23T21:48:55.314Z",
+        "end_date": "2023-09-23T17:58:29.017Z",
+        "created_at": "2023-09-23T17:00:46.756Z",
+        "updated_at": "2023-09-23T14:40:09.772Z",
+        "product_id": "cbfbfc8e-e2fa-4f43-9f28-2e1338c5cc6c"
+      },
+      {
+        "id": "e08972b1-dcf3-4905-a2dc-c4a716c1fa3a",
+        "discount": 87168,
+        "start_date": "2023-09-23T23:15:00.228Z",
+        "end_date": "2023-09-24T00:33:28.261Z",
+        "created_at": "2023-09-23T17:23:41.153Z",
+        "updated_at": "2023-09-23T14:53:03.705Z",
+        "product_id": "f902b43c-4f62-4bec-bd54-f1b171f8b6a7"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "92290198-e745-4308-a42e-fde4ba5bcace",
+        "status": "Pending",
+        "created_at": "2023-09-23T14:51:54.341Z",
+        "updated_at": "2023-09-23T21:52:04.233Z",
+        "offer_id": "db46b0bc-d3ed-4272-9749-4355bc2edcc2",
+        "product_id": "1f33a4e6-9186-4391-a86a-6e66c40fb341",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c00a686-5d32-4279-8852-b97040feff68",
+        "status": "Under Review",
+        "created_at": "2023-09-23T17:01:50.507Z",
+        "updated_at": "2023-09-23T15:20:25.904Z",
+        "offer_id": "f6d7a9ae-1d6b-45ec-94f7-6e56e73725df",
+        "product_id": "1f33a4e6-9186-4391-a86a-6e66c40fb341",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5ba8694-f6ba-4c87-a23c-c296ad2fe1c3",
+        "status": "Accepted",
+        "created_at": "2023-09-23T10:45:27.488Z",
+        "updated_at": "2023-09-23T08:40:32.769Z",
+        "offer_id": "c1bb7cae-93d3-4b3c-8662-42985baec591",
+        "product_id": "f902b43c-4f62-4bec-bd54-f1b171f8b6a7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0200e685-417f-4349-bc21-07ad55b6ebb1",
+        "status": "Rejected",
+        "created_at": "2023-09-23T21:09:22.309Z",
+        "updated_at": "2023-09-23T15:20:24.308Z",
+        "offer_id": "a925c89b-9d42-4188-b7bd-f37d6d68c6f5",
+        "product_id": "cbfbfc8e-e2fa-4f43-9f28-2e1338c5cc6c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c89e51e-2b2d-4d8c-ab6e-7ee54d73fecb",
+        "status": "Implemented",
+        "created_at": "2023-09-24T07:06:22.616Z",
+        "updated_at": "2023-09-23T22:05:44.580Z",
+        "offer_id": "c1bb7cae-93d3-4b3c-8662-42985baec591",
+        "product_id": "1f33a4e6-9186-4391-a86a-6e66c40fb341",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "bbc4fdc6-2660-4270-99c3-d7ae13770dd6",
+        "quantity": 83315,
+        "total_price": 23422,
+        "created_at": "2023-09-23T17:16:02.826Z",
+        "updated_at": "2023-09-23T18:29:24.743Z",
+        "product_id": "742f9f46-e02c-456d-a063-f52bc991781a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1800470e-939d-4305-90e1-aa6a4fdc559a",
+        "quantity": 38660,
+        "total_price": 90760,
+        "created_at": "2023-09-23T17:40:21.134Z",
+        "updated_at": "2023-09-23T17:00:26.752Z",
+        "product_id": "1f33a4e6-9186-4391-a86a-6e66c40fb341",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3afe3bf9-bc45-4c78-a026-492e976b3f0e",
+        "quantity": 35568,
+        "total_price": 8151,
+        "created_at": "2023-09-24T01:59:36.638Z",
+        "updated_at": "2023-09-24T01:32:39.814Z",
+        "product_id": "605d8408-5abb-4760-9987-07637802efe0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0543afef-5b29-4f41-9605-131736b86dfa",
+        "quantity": 43140,
+        "total_price": 27875,
+        "created_at": "2023-09-23T15:35:01.093Z",
+        "updated_at": "2023-09-24T04:00:04.397Z",
+        "product_id": "cbfbfc8e-e2fa-4f43-9f28-2e1338c5cc6c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cda1a31c-8106-4e77-bae2-8ef2aaeece94",
+        "quantity": 4338,
+        "total_price": 72896,
+        "created_at": "2023-09-23T10:50:40.653Z",
+        "updated_at": "2023-09-24T03:15:10.284Z",
+        "product_id": "f902b43c-4f62-4bec-bd54-f1b171f8b6a7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "216ff5d6-9ca7-4fac-9323-520f7e0c0608",
+        "email": "Jakayla.Wilkinson@roq.tech",
+        "firstName": "Kristoffer",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51467786",
+        "tenantId": null
+      },
+      {
+        "reference": "14c71ac2-2c01-4a92-8153-aaf83d812e0e",
+        "email": "Arch11@roq.tech",
+        "firstName": "Dangelo",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81821861",
+        "tenantId": null
+      },
+      {
+        "reference": "40a71c36-f101-4d14-bb53-b3de7f2f7342",
+        "email": "Odessa.Legros@roq.tech",
+        "firstName": "Joesph",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/639.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce002588-9bae-4a73-897c-9acc7750ce72",
+        "email": "Gerhard.Dickens16@roq.tech",
+        "firstName": "Angelica",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46237863",
+        "tenantId": null
+      },
+      {
+        "reference": "47f06e31-3666-4ae3-9598-47d87392771f",
+        "email": "Linnie_Jenkins72@roq.tech",
+        "firstName": "Angelita",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1212.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "675086dd-39cf-4d23-a351-b79802a189fe",
+        "name": "Product 1",
+        "description": "High-quality and durable",
+        "price": 37311,
+        "stock": 90336,
+        "created_at": "2023-09-23T23:01:55.838Z",
+        "updated_at": "2023-09-23T14:12:38.029Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "e9caa263-81fe-4574-b1c9-2e6b6336773a",
+        "name": "Product 2",
+        "description": "Elegant and stylish",
+        "price": 77668,
+        "stock": 3531,
+        "created_at": "2023-09-24T00:54:07.492Z",
+        "updated_at": "2023-09-24T00:34:07.391Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "f58a7e7a-e6c4-4e8b-be03-808410bd3513",
+        "name": "Product 3",
+        "description": "Versatile and functional",
+        "price": 20560,
+        "stock": 2848,
+        "created_at": "2023-09-23T07:26:10.160Z",
+        "updated_at": "2023-09-24T03:38:21.253Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "237d4ab2-78c6-405e-875c-66e926493d44",
+        "name": "Product 4",
+        "description": "Innovative and modern",
+        "price": 31493,
+        "stock": 60040,
+        "created_at": "2023-09-24T05:18:51.873Z",
+        "updated_at": "2023-09-24T01:07:59.354Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "6be21aeb-a076-44b4-9149-16d1dce90d26",
+        "name": "Product 5",
+        "description": "Premium and luxurious",
+        "price": 91677,
+        "stock": 13791,
+        "created_at": "2023-09-23T13:18:16.004Z",
+        "updated_at": "2023-09-23T15:17:39.294Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "b8c2f63f-a039-4b7f-90ab-84bd3d230661",
+        "discount": 94364,
+        "start_date": "2023-09-23T10:29:58.008Z",
+        "end_date": "2023-09-23T20:47:00.509Z",
+        "created_at": "2023-09-24T00:33:54.408Z",
+        "updated_at": "2023-09-23T10:24:59.045Z",
+        "product_id": "675086dd-39cf-4d23-a351-b79802a189fe"
+      },
+      {
+        "id": "80efcac3-242b-4858-bafa-bf80d1252934",
+        "discount": 30965,
+        "start_date": "2023-09-23T08:43:51.227Z",
+        "end_date": "2023-09-23T12:12:41.965Z",
+        "created_at": "2023-09-24T06:50:57.392Z",
+        "updated_at": "2023-09-24T06:01:52.698Z",
+        "product_id": "e9caa263-81fe-4574-b1c9-2e6b6336773a"
+      },
+      {
+        "id": "a734c864-1d25-4364-bcf3-06ad5dc4cc72",
+        "discount": 36372,
+        "start_date": "2023-09-23T20:51:35.433Z",
+        "end_date": "2023-09-23T12:10:27.990Z",
+        "created_at": "2023-09-23T08:23:13.751Z",
+        "updated_at": "2023-09-23T17:33:52.795Z",
+        "product_id": "e9caa263-81fe-4574-b1c9-2e6b6336773a"
+      },
+      {
+        "id": "4f0b5ca1-be4d-4085-8d28-984818d296d4",
+        "discount": 28315,
+        "start_date": "2023-09-24T02:57:11.352Z",
+        "end_date": "2023-09-23T17:47:42.712Z",
+        "created_at": "2023-09-23T13:01:53.226Z",
+        "updated_at": "2023-09-24T02:53:36.135Z",
+        "product_id": "6be21aeb-a076-44b4-9149-16d1dce90d26"
+      },
+      {
+        "id": "c2460a2f-1a99-4d5c-9833-1568ba85c9aa",
+        "discount": 67510,
+        "start_date": "2023-09-23T07:28:20.929Z",
+        "end_date": "2023-09-23T16:15:47.334Z",
+        "created_at": "2023-09-23T16:05:21.056Z",
+        "updated_at": "2023-09-23T13:31:21.535Z",
+        "product_id": "237d4ab2-78c6-405e-875c-66e926493d44"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "5540746b-11a0-44d2-9175-91331da0df4c",
+        "status": "Pending",
+        "created_at": "2023-09-24T01:38:20.840Z",
+        "updated_at": "2023-09-23T22:11:45.585Z",
+        "offer_id": "a734c864-1d25-4364-bcf3-06ad5dc4cc72",
+        "product_id": "6be21aeb-a076-44b4-9149-16d1dce90d26",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c302c602-78d8-4ba1-aef5-7da38d4833f3",
+        "status": "Reviewed",
+        "created_at": "2023-09-23T23:02:17.646Z",
+        "updated_at": "2023-09-23T07:16:06.170Z",
+        "offer_id": "c2460a2f-1a99-4d5c-9833-1568ba85c9aa",
+        "product_id": "e9caa263-81fe-4574-b1c9-2e6b6336773a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3e9a349-3c7c-4bd3-9576-0f840cee0d41",
+        "status": "Accepted",
+        "created_at": "2023-09-23T11:57:52.473Z",
+        "updated_at": "2023-09-23T13:44:13.981Z",
+        "offer_id": "4f0b5ca1-be4d-4085-8d28-984818d296d4",
+        "product_id": "f58a7e7a-e6c4-4e8b-be03-808410bd3513",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9c50487-c5ee-440c-9340-20bb6a6cf71e",
+        "status": "Declined",
+        "created_at": "2023-09-23T13:56:05.244Z",
+        "updated_at": "2023-09-24T05:54:34.201Z",
+        "offer_id": "4f0b5ca1-be4d-4085-8d28-984818d296d4",
+        "product_id": "237d4ab2-78c6-405e-875c-66e926493d44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "121aa551-c7e3-4427-936b-7e2f19568ef1",
+        "status": "Implemented",
+        "created_at": "2023-09-23T12:56:16.642Z",
+        "updated_at": "2023-09-24T07:05:41.060Z",
+        "offer_id": "80efcac3-242b-4858-bafa-bf80d1252934",
+        "product_id": "675086dd-39cf-4d23-a351-b79802a189fe",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "80966e2e-e585-43ad-b618-fec189cf91be",
+        "quantity": 90237,
+        "total_price": 1197,
+        "created_at": "2023-09-24T04:46:59.536Z",
+        "updated_at": "2023-09-24T06:28:44.351Z",
+        "product_id": "675086dd-39cf-4d23-a351-b79802a189fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43096bee-ac82-44a9-813f-a62a6f8d482d",
+        "quantity": 48292,
+        "total_price": 50626,
+        "created_at": "2023-09-24T00:09:27.708Z",
+        "updated_at": "2023-09-23T09:11:08.079Z",
+        "product_id": "e9caa263-81fe-4574-b1c9-2e6b6336773a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fd8c398-7194-4cd3-8e67-a3e6d383453b",
+        "quantity": 58285,
+        "total_price": 47941,
+        "created_at": "2023-09-23T12:51:04.196Z",
+        "updated_at": "2023-09-23T09:38:53.000Z",
+        "product_id": "f58a7e7a-e6c4-4e8b-be03-808410bd3513",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "238467d5-2528-4f25-9de2-3f6437671a30",
+        "quantity": 17022,
+        "total_price": 68164,
+        "created_at": "2023-09-23T18:21:49.223Z",
+        "updated_at": "2023-09-23T08:40:47.815Z",
+        "product_id": "237d4ab2-78c6-405e-875c-66e926493d44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7361a640-dd07-4fd4-81f7-09f42f90306f",
+        "quantity": 61786,
+        "total_price": 85225,
+        "created_at": "2023-09-23T07:24:57.698Z",
+        "updated_at": "2023-09-24T02:08:45.530Z",
+        "product_id": "e9caa263-81fe-4574-b1c9-2e6b6336773a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e192564d-25f1-45ef-8417-806389adf140",
+        "email": "Vincenzo34@roq.tech",
+        "firstName": "Frida",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8674696",
+        "tenantId": null
+      },
+      {
+        "reference": "b25f2c16-c216-4574-8298-98d2a636ae57",
+        "email": "Eric21@roq.tech",
+        "firstName": "Dianna",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "33927a8a-28df-4644-8be0-5096c56f511d",
+        "email": "Leopold.Upton@roq.tech",
+        "firstName": "Ulices",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43773675",
+        "tenantId": null
+      },
+      {
+        "reference": "741b2c3b-bd9b-4094-9947-f427b3878c37",
+        "email": "Mozelle_Hilll14@roq.tech",
+        "firstName": "Manley",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93079138",
+        "tenantId": null
+      },
+      {
+        "reference": "2a73c05c-e8b8-4a10-833d-181cc59892ab",
+        "email": "Grady.Murphy54@roq.tech",
+        "firstName": "Gerald",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52476758",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "8f9b302c-73c1-47a6-944b-811ff69a6d12",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "price": 8749,
+        "stock": 80585,
+        "created_at": "2023-09-23T21:05:56.293Z",
+        "updated_at": "2023-09-23T22:59:15.164Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "eaecd91d-1969-48e5-8700-c9590110e100",
+        "name": "Product B",
+        "description": "Elegant and stylish",
+        "price": 57467,
+        "stock": 1825,
+        "created_at": "2023-09-24T04:07:29.674Z",
+        "updated_at": "2023-09-23T07:38:34.387Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "d4e417a3-7e49-4f46-805e-17fd42b881ca",
+        "name": "Product C",
+        "description": "Versatile and functional",
+        "price": 25701,
+        "stock": 33072,
+        "created_at": "2023-09-23T23:17:51.081Z",
+        "updated_at": "2023-09-23T09:19:36.446Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "e43171a2-8347-466c-8266-e282fc823084",
+        "name": "Product D",
+        "description": "Innovative and cutting-edge",
+        "price": 14401,
+        "stock": 65637,
+        "created_at": "2023-09-24T04:15:49.454Z",
+        "updated_at": "2023-09-24T04:35:49.837Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "c37900cd-731a-41dd-b600-6c444cef0a33",
+        "name": "Product E",
+        "description": "Affordable and budget-friendly",
+        "price": 44283,
+        "stock": 72231,
+        "created_at": "2023-09-24T04:41:06.293Z",
+        "updated_at": "2023-09-23T18:54:11.781Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "7f325a0a-b385-49e4-9194-80b8750529ad",
+        "discount": 2895,
+        "start_date": "2023-09-23T14:11:44.132Z",
+        "end_date": "2023-09-23T18:24:19.415Z",
+        "created_at": "2023-09-24T01:25:05.986Z",
+        "updated_at": "2023-09-23T09:46:05.534Z",
+        "product_id": "e43171a2-8347-466c-8266-e282fc823084"
+      },
+      {
+        "id": "7e6c072e-2e1f-472f-8f52-660006f89ade",
+        "discount": 35783,
+        "start_date": "2023-09-23T12:53:12.663Z",
+        "end_date": "2023-09-23T08:52:18.609Z",
+        "created_at": "2023-09-23T23:08:54.346Z",
+        "updated_at": "2023-09-24T03:24:05.600Z",
+        "product_id": "d4e417a3-7e49-4f46-805e-17fd42b881ca"
+      },
+      {
+        "id": "83121f08-d126-4975-964d-74c010e1c88e",
+        "discount": 95957,
+        "start_date": "2023-09-24T03:03:45.679Z",
+        "end_date": "2023-09-23T21:13:36.389Z",
+        "created_at": "2023-09-23T20:22:04.313Z",
+        "updated_at": "2023-09-23T19:34:00.744Z",
+        "product_id": "e43171a2-8347-466c-8266-e282fc823084"
+      },
+      {
+        "id": "f89c7e5a-4199-4a4e-803e-fccf9663152f",
+        "discount": 55920,
+        "start_date": "2023-09-23T11:11:54.854Z",
+        "end_date": "2023-09-24T05:18:24.829Z",
+        "created_at": "2023-09-23T13:59:03.362Z",
+        "updated_at": "2023-09-24T05:20:09.156Z",
+        "product_id": "c37900cd-731a-41dd-b600-6c444cef0a33"
+      },
+      {
+        "id": "b1e580b3-7be6-49a0-94c5-6795cc69c258",
+        "discount": 38182,
+        "start_date": "2023-09-23T21:51:48.116Z",
+        "end_date": "2023-09-23T16:35:43.270Z",
+        "created_at": "2023-09-23T11:26:42.638Z",
+        "updated_at": "2023-09-23T18:31:15.742Z",
+        "product_id": "e43171a2-8347-466c-8266-e282fc823084"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "bc68b567-9fd8-4f22-ba5a-857cbf1e554e",
+        "status": "Pending",
+        "created_at": "2023-09-24T00:49:48.605Z",
+        "updated_at": "2023-09-23T10:11:52.172Z",
+        "offer_id": "7f325a0a-b385-49e4-9194-80b8750529ad",
+        "product_id": "8f9b302c-73c1-47a6-944b-811ff69a6d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2eafe995-babd-4b73-ac2a-ab65e8747776",
+        "status": "Under Review",
+        "created_at": "2023-09-23T22:07:00.073Z",
+        "updated_at": "2023-09-23T15:54:23.168Z",
+        "offer_id": "f89c7e5a-4199-4a4e-803e-fccf9663152f",
+        "product_id": "8f9b302c-73c1-47a6-944b-811ff69a6d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b0d687c-9054-45cd-b96d-d2f53e5136cc",
+        "status": "Accepted",
+        "created_at": "2023-09-23T19:03:06.105Z",
+        "updated_at": "2023-09-23T18:10:05.196Z",
+        "offer_id": "b1e580b3-7be6-49a0-94c5-6795cc69c258",
+        "product_id": "8f9b302c-73c1-47a6-944b-811ff69a6d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4a05973-0381-499c-923b-cfb03e96da65",
+        "status": "Rejected",
+        "created_at": "2023-09-23T22:06:38.205Z",
+        "updated_at": "2023-09-23T17:52:29.110Z",
+        "offer_id": "b1e580b3-7be6-49a0-94c5-6795cc69c258",
+        "product_id": "e43171a2-8347-466c-8266-e282fc823084",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dba182b4-1148-4f98-a5c3-dadb6bbf1f60",
+        "status": "Implemented",
+        "created_at": "2023-09-23T19:15:39.731Z",
+        "updated_at": "2023-09-23T10:22:39.317Z",
+        "offer_id": "b1e580b3-7be6-49a0-94c5-6795cc69c258",
+        "product_id": "c37900cd-731a-41dd-b600-6c444cef0a33",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "2e3fa088-c2cf-4009-afb8-9e8f3a4a6248",
+        "quantity": 74904,
+        "total_price": 43462,
+        "created_at": "2023-09-23T14:06:59.388Z",
+        "updated_at": "2023-09-23T16:14:00.705Z",
+        "product_id": "8f9b302c-73c1-47a6-944b-811ff69a6d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcb10fca-c994-4fca-aecb-a23464265cdc",
+        "quantity": 2352,
+        "total_price": 26295,
+        "created_at": "2023-09-24T00:29:40.047Z",
+        "updated_at": "2023-09-23T18:30:16.908Z",
+        "product_id": "e43171a2-8347-466c-8266-e282fc823084",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6ac13ef-8673-42fb-8209-19fb94d69774",
+        "quantity": 77482,
+        "total_price": 53040,
+        "created_at": "2023-09-23T20:55:26.811Z",
+        "updated_at": "2023-09-23T22:31:11.866Z",
+        "product_id": "d4e417a3-7e49-4f46-805e-17fd42b881ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5964fcc-9c8d-493a-b0f0-026c2a7b87a3",
+        "quantity": 16301,
+        "total_price": 95452,
+        "created_at": "2023-09-23T22:49:08.061Z",
+        "updated_at": "2023-09-23T20:49:28.865Z",
+        "product_id": "eaecd91d-1969-48e5-8700-c9590110e100",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c6395c9-feac-41bb-b428-cc3e8dc5ddfc",
+        "quantity": 57448,
+        "total_price": 30325,
+        "created_at": "2023-09-24T06:25:06.961Z",
+        "updated_at": "2023-09-23T11:57:33.739Z",
+        "product_id": "8f9b302c-73c1-47a6-944b-811ff69a6d12",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ecfd974e-16be-4e90-9318-bc1f53fcf450",
+        "email": "Lorine56@roq.tech",
+        "firstName": "Janis",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8697120",
+        "tenantId": null
+      },
+      {
+        "reference": "c041b9e0-1bf7-47f1-b1dc-b366f35ec4bf",
+        "email": "Brett55@roq.tech",
+        "firstName": "Marquise",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/744.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ac7795e-54cb-4002-89c2-53c5ba763a6c",
+        "email": "Pearl68@roq.tech",
+        "firstName": "Dessie",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83730351",
+        "tenantId": null
+      },
+      {
+        "reference": "da50e9b5-b619-4b98-9662-3ffb62d9e872",
+        "email": "Kamille.Donnelly@roq.tech",
+        "firstName": "Karlee",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54725599",
+        "tenantId": null
+      },
+      {
+        "reference": "db31ccc2-7df3-4793-9042-c844bdfc3c59",
+        "email": "Riley.Jenkins@roq.tech",
+        "firstName": "Ephraim",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/22.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "d751ed7b-457e-488c-a412-300e902eff9a",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "price": 51577,
+        "stock": 25772,
+        "created_at": "2023-09-23T15:31:20.272Z",
+        "updated_at": "2023-09-24T01:29:06.042Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "e98322dd-391a-4163-8138-67203787c1e9",
+        "name": "Product B",
+        "description": "Innovative and user-friendly",
+        "price": 86170,
+        "stock": 48011,
+        "created_at": "2023-09-23T17:15:34.745Z",
+        "updated_at": "2023-09-24T06:37:50.140Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "31c7fcc7-4958-4f3c-ac84-2154f8709d54",
+        "name": "Product C",
+        "description": "Versatile and customizable",
+        "price": 39025,
+        "stock": 44887,
+        "created_at": "2023-09-24T03:58:49.059Z",
+        "updated_at": "2023-09-23T21:58:35.705Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "5bf899a1-c71c-4f62-8b6e-c20164a27703",
+        "name": "Product D",
+        "description": "Eco-friendly and sustainable",
+        "price": 27063,
+        "stock": 41756,
+        "created_at": "2023-09-23T16:05:08.241Z",
+        "updated_at": "2023-09-24T01:05:13.377Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "6b83da77-e27f-4049-b967-a46a6f1dab5a",
+        "name": "Product E",
+        "description": "Affordable and reliable",
+        "price": 58686,
+        "stock": 14366,
+        "created_at": "2023-09-23T21:32:02.960Z",
+        "updated_at": "2023-09-23T12:51:54.891Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "802a4bba-1681-4a02-965c-c9f1f11abfd1",
+        "discount": 66534,
+        "start_date": "2023-09-24T00:52:05.989Z",
+        "end_date": "2023-09-24T04:59:02.533Z",
+        "created_at": "2023-09-23T18:32:48.044Z",
+        "updated_at": "2023-09-23T10:23:48.451Z",
+        "product_id": "6b83da77-e27f-4049-b967-a46a6f1dab5a"
+      },
+      {
+        "id": "d3adcc96-cc03-4080-a4bd-2733243117f5",
+        "discount": 95543,
+        "start_date": "2023-09-23T16:51:05.333Z",
+        "end_date": "2023-09-24T07:09:32.892Z",
+        "created_at": "2023-09-23T14:51:30.274Z",
+        "updated_at": "2023-09-24T01:31:44.217Z",
+        "product_id": "e98322dd-391a-4163-8138-67203787c1e9"
+      },
+      {
+        "id": "09aca97d-1fd8-4cf8-ae89-b9ff19ead5be",
+        "discount": 68495,
+        "start_date": "2023-09-23T14:43:34.768Z",
+        "end_date": "2023-09-23T23:17:58.937Z",
+        "created_at": "2023-09-23T14:39:26.738Z",
+        "updated_at": "2023-09-24T01:10:59.289Z",
+        "product_id": "d751ed7b-457e-488c-a412-300e902eff9a"
+      },
+      {
+        "id": "c795c814-7903-4f5c-ae11-fcf1358a0c25",
+        "discount": 50390,
+        "start_date": "2023-09-23T08:16:40.790Z",
+        "end_date": "2023-09-23T16:39:06.116Z",
+        "created_at": "2023-09-24T00:46:29.494Z",
+        "updated_at": "2023-09-23T09:36:09.330Z",
+        "product_id": "5bf899a1-c71c-4f62-8b6e-c20164a27703"
+      },
+      {
+        "id": "25590f0a-2133-48f8-9561-56411d21a0b1",
+        "discount": 23749,
+        "start_date": "2023-09-23T14:15:03.243Z",
+        "end_date": "2023-09-24T06:55:43.071Z",
+        "created_at": "2023-09-23T23:14:05.541Z",
+        "updated_at": "2023-09-24T06:46:19.245Z",
+        "product_id": "6b83da77-e27f-4049-b967-a46a6f1dab5a"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "76a04e92-660d-4eb6-b672-d417ddba585f",
+        "status": "Pending",
+        "created_at": "2023-09-23T12:08:32.322Z",
+        "updated_at": "2023-09-23T20:52:31.435Z",
+        "offer_id": "09aca97d-1fd8-4cf8-ae89-b9ff19ead5be",
+        "product_id": "6b83da77-e27f-4049-b967-a46a6f1dab5a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f168cc61-1b09-4edb-83e3-ba64024fb2e1",
+        "status": "Reviewed",
+        "created_at": "2023-09-23T21:00:51.805Z",
+        "updated_at": "2023-09-23T18:06:42.545Z",
+        "offer_id": "802a4bba-1681-4a02-965c-c9f1f11abfd1",
+        "product_id": "5bf899a1-c71c-4f62-8b6e-c20164a27703",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72302433-5468-4fcd-878f-7fcfebb706a9",
+        "status": "Accepted",
+        "created_at": "2023-09-23T12:19:01.011Z",
+        "updated_at": "2023-09-23T11:58:16.437Z",
+        "offer_id": "25590f0a-2133-48f8-9561-56411d21a0b1",
+        "product_id": "31c7fcc7-4958-4f3c-ac84-2154f8709d54",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb0bca1f-52d3-4098-ad04-53098b47814a",
+        "status": "Rejected",
+        "created_at": "2023-09-23T23:44:58.032Z",
+        "updated_at": "2023-09-23T12:19:03.812Z",
+        "offer_id": "802a4bba-1681-4a02-965c-c9f1f11abfd1",
+        "product_id": "31c7fcc7-4958-4f3c-ac84-2154f8709d54",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7538148-950f-4bdb-ac4f-4695dd18c603",
+        "status": "Implemented",
+        "created_at": "2023-09-24T04:27:01.958Z",
+        "updated_at": "2023-09-23T22:21:36.204Z",
+        "offer_id": "d3adcc96-cc03-4080-a4bd-2733243117f5",
+        "product_id": "5bf899a1-c71c-4f62-8b6e-c20164a27703",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "ad75be96-d6dd-4328-b061-2495e5d4ffc1",
+        "quantity": 37857,
+        "total_price": 53374,
+        "created_at": "2023-09-23T20:05:09.933Z",
+        "updated_at": "2023-09-23T11:29:15.311Z",
+        "product_id": "e98322dd-391a-4163-8138-67203787c1e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d30ee69-6b6f-4830-b723-5cfec188a55a",
+        "quantity": 5550,
+        "total_price": 86954,
+        "created_at": "2023-09-23T11:25:59.008Z",
+        "updated_at": "2023-09-24T05:32:02.792Z",
+        "product_id": "6b83da77-e27f-4049-b967-a46a6f1dab5a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07ccc5cd-2989-433e-b9f2-c22b2d06b4a1",
+        "quantity": 27724,
+        "total_price": 53055,
+        "created_at": "2023-09-23T18:07:55.968Z",
+        "updated_at": "2023-09-24T06:04:19.655Z",
+        "product_id": "d751ed7b-457e-488c-a412-300e902eff9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c331476-b3b3-4f9a-86d2-fb2e15490c47",
+        "quantity": 81670,
+        "total_price": 17136,
+        "created_at": "2023-09-23T08:45:33.215Z",
+        "updated_at": "2023-09-23T09:28:25.693Z",
+        "product_id": "31c7fcc7-4958-4f3c-ac84-2154f8709d54",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "110bbfbd-e2ea-49e1-bc45-43c4d43405bd",
+        "quantity": 85296,
+        "total_price": 97951,
+        "created_at": "2023-09-23T15:33:20.602Z",
+        "updated_at": "2023-09-23T08:13:59.216Z",
+        "product_id": "6b83da77-e27f-4049-b967-a46a6f1dab5a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b1231669-f177-4950-8c7d-f46d46a41027",
+        "email": "Alba5@roq.tech",
+        "firstName": "Johnny",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20658865",
+        "tenantId": null
+      },
+      {
+        "reference": "5b165466-689a-4afc-97d1-aa552cc6d871",
+        "email": "Selena.VonRueden41@roq.tech",
+        "firstName": "Beatrice",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e88c1383-fbf8-48bd-bc4a-b0f99b6eb9ac",
+        "email": "Nedra.Bernier62@roq.tech",
+        "firstName": "Cory",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/638.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3fb14c24-229a-4e47-aac2-7f4992e2b62d",
+        "email": "Ubaldo38@roq.tech",
+        "firstName": "Mittie",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cd7f1fa9-2b62-4c1f-b18a-c90932fe4d74",
+        "email": "Lucious.Green0@roq.tech",
+        "firstName": "Marcelino",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/272.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "094648a0-cdc8-435e-8621-6fa58fff456b",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "price": 67842,
+        "stock": 92036,
+        "created_at": "2023-09-23T22:29:41.539Z",
+        "updated_at": "2023-09-23T22:33:37.001Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "40e459fe-f12a-4abe-a808-770e69a4aca4",
+        "name": "Product B",
+        "description": "Innovative and user-friendly",
+        "price": 45940,
+        "stock": 80175,
+        "created_at": "2023-09-23T14:19:07.211Z",
+        "updated_at": "2023-09-24T01:22:51.263Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "b55a7c6c-2c78-4307-9bbe-dabed9dd9918",
+        "name": "Product C",
+        "description": "Versatile and customizable",
+        "price": 43625,
+        "stock": 17067,
+        "created_at": "2023-09-23T08:11:21.493Z",
+        "updated_at": "2023-09-24T02:30:18.550Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "20f1daa2-b97d-4311-9820-24a8bf987c94",
+        "name": "Product D",
+        "description": "Eco-friendly and sustainable",
+        "price": 11311,
+        "stock": 88251,
+        "created_at": "2023-09-23T13:19:20.133Z",
+        "updated_at": "2023-09-23T14:51:30.862Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "d12caf45-8d64-426d-a2c4-7b5d311892af",
+        "name": "Product E",
+        "description": "Affordable and cost-effective",
+        "price": 62241,
+        "stock": 63491,
+        "created_at": "2023-09-23T08:10:30.966Z",
+        "updated_at": "2023-09-24T04:02:32.631Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "9fde73a9-eeec-40e8-b824-7624d898db94",
+        "discount": 6669,
+        "start_date": "2023-09-23T08:45:09.931Z",
+        "end_date": "2023-09-23T15:25:20.958Z",
+        "created_at": "2023-09-23T17:10:15.152Z",
+        "updated_at": "2023-09-23T17:50:58.084Z",
+        "product_id": "40e459fe-f12a-4abe-a808-770e69a4aca4"
+      },
+      {
+        "id": "51c96f1a-a0ed-41e1-aba0-a9621bc5cbe7",
+        "discount": 45312,
+        "start_date": "2023-09-24T04:54:19.699Z",
+        "end_date": "2023-09-23T13:05:48.037Z",
+        "created_at": "2023-09-23T13:54:21.783Z",
+        "updated_at": "2023-09-24T07:04:27.123Z",
+        "product_id": "094648a0-cdc8-435e-8621-6fa58fff456b"
+      },
+      {
+        "id": "458a3a2f-6de9-454e-9e1c-65e18aa2c616",
+        "discount": 36345,
+        "start_date": "2023-09-24T00:03:03.690Z",
+        "end_date": "2023-09-23T20:59:54.379Z",
+        "created_at": "2023-09-23T23:38:42.597Z",
+        "updated_at": "2023-09-23T22:04:35.311Z",
+        "product_id": "40e459fe-f12a-4abe-a808-770e69a4aca4"
+      },
+      {
+        "id": "f428f3f6-d37c-40bb-a0c2-595e56e1c37e",
+        "discount": 49161,
+        "start_date": "2023-09-23T08:20:09.305Z",
+        "end_date": "2023-09-23T14:24:42.700Z",
+        "created_at": "2023-09-23T18:24:05.284Z",
+        "updated_at": "2023-09-23T10:37:02.899Z",
+        "product_id": "20f1daa2-b97d-4311-9820-24a8bf987c94"
+      },
+      {
+        "id": "7b1f626d-ab8d-4880-9b67-12f2bc3aa0ed",
+        "discount": 41802,
+        "start_date": "2023-09-23T09:04:03.011Z",
+        "end_date": "2023-09-24T05:54:42.713Z",
+        "created_at": "2023-09-23T08:53:28.908Z",
+        "updated_at": "2023-09-24T05:33:33.284Z",
+        "product_id": "094648a0-cdc8-435e-8621-6fa58fff456b"
+      }
+    ],
+    "suggestion": [
+      {
+        "id": "e9a0ce1b-56f2-4757-b5e0-e690a5f49671",
+        "status": "Pending",
+        "created_at": "2023-09-23T12:34:02.202Z",
+        "updated_at": "2023-09-23T16:58:45.135Z",
+        "offer_id": "7b1f626d-ab8d-4880-9b67-12f2bc3aa0ed",
+        "product_id": "d12caf45-8d64-426d-a2c4-7b5d311892af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62f68903-37cc-4dd5-86f7-30217921f386",
+        "status": "Reviewed",
+        "created_at": "2023-09-23T18:41:47.088Z",
+        "updated_at": "2023-09-23T22:05:28.606Z",
+        "offer_id": "f428f3f6-d37c-40bb-a0c2-595e56e1c37e",
+        "product_id": "40e459fe-f12a-4abe-a808-770e69a4aca4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ac6d342-a8f0-426c-9de3-e51577e9ab66",
+        "status": "Accepted",
+        "created_at": "2023-09-23T13:34:38.746Z",
+        "updated_at": "2023-09-23T10:28:31.369Z",
+        "offer_id": "9fde73a9-eeec-40e8-b824-7624d898db94",
+        "product_id": "40e459fe-f12a-4abe-a808-770e69a4aca4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98eabd54-6bee-4066-b2be-273e54794a90",
+        "status": "Rejected",
+        "created_at": "2023-09-24T06:13:57.399Z",
+        "updated_at": "2023-09-23T10:13:05.940Z",
+        "offer_id": "9fde73a9-eeec-40e8-b824-7624d898db94",
+        "product_id": "b55a7c6c-2c78-4307-9bbe-dabed9dd9918",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e55bc46a-6c26-478c-9548-89cb80ddfceb",
+        "status": "Implemented",
+        "created_at": "2023-09-24T04:10:26.111Z",
+        "updated_at": "2023-09-24T00:02:23.200Z",
+        "offer_id": "458a3a2f-6de9-454e-9e1c-65e18aa2c616",
+        "product_id": "40e459fe-f12a-4abe-a808-770e69a4aca4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill": [
+      {
+        "id": "f7227041-97f5-461b-913e-fa39d952df0c",
+        "quantity": 85969,
+        "total_price": 36439,
+        "created_at": "2023-09-23T14:28:32.800Z",
+        "updated_at": "2023-09-23T09:55:18.905Z",
+        "product_id": "b55a7c6c-2c78-4307-9bbe-dabed9dd9918",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b97db218-c4ca-4c09-81a7-91027a622451",
+        "quantity": 2668,
+        "total_price": 63486,
+        "created_at": "2023-09-23T12:35:21.901Z",
+        "updated_at": "2023-09-23T19:16:04.066Z",
+        "product_id": "40e459fe-f12a-4abe-a808-770e69a4aca4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "539c6bf0-6a07-4188-bfa0-c87a09236db5",
+        "quantity": 65420,
+        "total_price": 65496,
+        "created_at": "2023-09-23T19:22:11.428Z",
+        "updated_at": "2023-09-24T05:44:43.251Z",
+        "product_id": "094648a0-cdc8-435e-8621-6fa58fff456b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d366768b-9e2e-413c-9f07-8f5bb8a9b431",
+        "quantity": 75371,
+        "total_price": 88368,
+        "created_at": "2023-09-23T10:41:07.964Z",
+        "updated_at": "2023-09-23T08:47:08.837Z",
+        "product_id": "d12caf45-8d64-426d-a2c4-7b5d311892af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1570c91e-8f09-4f16-a141-12fa27cc58f9",
+        "quantity": 21955,
+        "total_price": 84558,
+        "created_at": "2023-09-24T03:48:32.357Z",
+        "updated_at": "2023-09-23T23:50:08.392Z",
+        "product_id": "b55a7c6c-2c78-4307-9bbe-dabed9dd9918",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a968c090-464a-4461-ada5-f1062a242b21",
+        "email": "Isabel64@roq.tech",
+        "firstName": "Amara",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8532477",
+        "tenantId": null
+      },
+      {
+        "reference": "886f1f31-4508-4963-8a2e-6a370e0cec3b",
+        "email": "Lyric.Frami@roq.tech",
+        "firstName": "Berenice",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "572f7bcb-8308-41ce-9c9f-4aa0474d65c1",
+        "email": "Tatum46@roq.tech",
+        "firstName": "Duane",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1243.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eff8eeb9-13d2-4210-b628-41528ba3c49d",
+        "email": "Providenci22@roq.tech",
+        "firstName": "Annette",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/566.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "306a1021-117c-44be-b000-c7f01e3476dc",
+        "email": "Maximo7@roq.tech",
+        "firstName": "Evelyn",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77462904",
+        "tenantId": null
+      }
+    ]
+  }
+]
